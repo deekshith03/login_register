@@ -1,1 +1,2 @@
-web:gunicorn login_register.wsgi
+web:gunicorn login_register.wsgi --preload --log-file -
+
