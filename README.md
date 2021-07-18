@@ -10,5 +10,5 @@ steps to reproduce the code locally:
 4. Migrate and runserver using python manage.py migrate, python manage.py runserver
 
 
-#heroku link
+# heroku link
 https://radiant-spire-12429.herokuapp.com/
