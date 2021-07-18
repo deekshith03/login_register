@@ -1,0 +1,109 @@
+.section3 .hiuser{
+    padding: 40px;
+    background:  #ffa502!important;
+    background: -webkit-linear-gradient(legacy-direction(-45deg),#29276b,#716aca)!important;
+    background:linear-gradient(135deg, #eccc68, #ffa502)!important;
+    color: #fff;
+    line-height: 3;
+}
+.section3 .hiuser h3,.section3 .hiuser h3 span{color: #fff}
+.section3 .hiuser p{
+   color: #ffffffc7;
+}
+.section3 .flex-container{
+  width: 95%;
+  margin: -45px auto 0;
+}
+.section3 .flex-container a[name="dang ky"]{
+ background: #fff;
+ border: none;
+ border-radius: 5px;
+ padding: .575rem 25px;
+ color: #2993c7;
+ margin-bottom: 30px;
+ box-shadow: 1px 1px 5px #000000bf;
+ text-decoration: none;
+}
+.section3 .flex-container .member .delete{display: none;}
+.section3 .flex-container .member .delete .overplay{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: #000000bd;
+}
+.section3 .flex-container .member .delete .choice-delete{
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ background: #fff;
+ padding: 50px;
+ border-radius: 5px;
+}
+.section3 .flex-container .member .delete .choice-delete i{
+ position: absolute;
+ right: 20px;
+ top: 20px;
+ font-size: 20px;
+ color: rgb(47, 51, 53);
+}
+.section3 .flex-container .member .delete .choice-delete button{
+ color: #fff;
+ margin-top: 10px;
+ background: #f10000;
+ padding: 8px 18px;
+ font-size: 16px;
+}
+.section3 .flex-container .member .delete .choice-delete button:hover{box-shadow: 1px 1px 5px #000000a3;}
+.section3 .flex-container .member .delete .choice-delete button:last-child{background: #39c}
+.section3 .flex-container a[name="dang ky"]:hover{box-shadow: none;}
+.section3 .flex-container .member{text-align: center;}
+.section3 .flex-container .member table {width: 100% !important;padding: 30px 0;}
+.section3 .flex-container .member table .name-row{height: 40px;background: #41b5ff;font-weight: 500; color: #fff}
+.section3 .flex-container .member table .name-row th{padding-top: 8px;}
+.section3 .flex-container .member table tbody tr{background: #fff;}
+.section3 .flex-container .member table tbody tr:nth-child(even){background: #ffffff6b;}
+.section3 .flex-container .member table tbody tr td{padding: 5px 0;}
+.section3 .flex-container .member table tbody tr td textarea{
+ padding: 5px;
+ border-radius: 5px;
+ border: 1px solid #39c;
+}
+.section3 .flex-container .member table tbody tr td button{
+   -moz-box-shadow: 0px 10px 7px -7px #276873;
+   -webkit-box-shadow: 0px 10px 7px -7px #276873;
+   box-shadow: 0px 10px 7px -7px #276873;
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+   background: -moz-linear-gradient(top, #41b5ff 5%, #1887be 100%);
+   background: -webkit-linear-gradient(top, #41b5ff 5%, #1887be 100%);
+   background: -o-linear-gradient(top, #41b5ff 5%, #1887be 100%);
+   background: -ms-linear-gradient(top, #41b5ff 5%, #1887be 100%);
+   background: linear-gradient(to bottom, #41b5ff 5%, #1887be 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+   background-color: #599bb3;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   cursor: pointer;
+   color: #ffffff;
+   font-weight: bold;
+   padding: 7px 32px;
+   border: none;
+}
+
+.btn {
+   width: 100px;
+   padding: 15px 0;
+   border-radius: 7px;
+   outline: none;
+   border: none;
+   color: #fff;
+   background: #70a1ff;
+   transition: all 0.1s ease;
+   cursor: pointer;
+}
+
+.section3 .flex-container .member table tbody tr td button[name=save]{display: none;}
+

@@ -1,0 +1,73 @@
+{% load static %}
+
+{% block style %} 
+<link rel="stylesheet" href="{% static 'css/profile.css' %}" />
+{% endblock %}
+
+{% block jss %}
+        <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-1.7.1.min.js"
+        ></script>
+{% endblock %}   
+
+
+{% block title %} {% endblock %}
+
+
+{% block content %}
+<section class="section3">
+  <div class="hiuser">
+      <h3>Welcome back <span id="name-user">User</span>!</h3>
+      <button class="btn" id="logout">Logout</button>
+      <p style="display: none" id="errorfield"></p>
+  </div>
+  <div class="flex-container">
+   
+    <br/>
+    <br/>
+    <div class="member">
+      <div class="delete">
+        <div class="overplay"></div>
+        <div class="choice-delete">
+            <i class="fas fa-times"></i>
+            <h1>Do you want to delete?</h1>
+            <button type="button" name="cancel-delete" class="btn">Cancel</button>
+            <button type="button" name="yes-delete" class="btn">Delete</button>
+        </div>
+      </div>
+      <table class="content-member">
+        <thead>
+            <tr class="name-row">
+                <!-- <th ></th> -->
+                <th>Name</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+          <!-- <tr>
+            <td class="edit">Tran Tri Thanh</td>
+            <td class="edit">tran@gmail.com</td>
+            <td class="edit">ttt</td>
+            <td class="edit-save">
+              <button type="button" name="edit" class="edit-member">Edit</button>
+              <button type="button" name="save" class="save-member">Save</button>
+            </td>
+            <td><button type="button" name="delete" class="delete-member">Delete</button></td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
+{% block js %}
+<script
+type="module"
+src="{% static 'js/profile.js' %}"
+></script>
+{% endblock %}
